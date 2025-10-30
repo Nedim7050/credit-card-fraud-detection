@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data and models (optional heavy files)
+data/raw/*.csv
+models/*.joblib
+models/plots/
+
+# Streamlit
+.streamlit/
+
+# VSCode/Cursor
+.vscode/
+.cursor/

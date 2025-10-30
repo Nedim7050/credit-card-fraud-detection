@@ -1,0 +1,5 @@
+Model=log_reg | CV ROC-AUC=0.9907 | CV PR-AUC=0.4677
+Model=rf | CV ROC-AUC=0.9498 | CV PR-AUC=0.1879
+Model=xgb | CV ROC-AUC=0.9610 | CV PR-AUC=0.5912
+
+Selected=xgb | Test ROC-AUC=0.9784 | Test PR-AUC=0.6970
