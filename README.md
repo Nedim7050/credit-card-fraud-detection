@@ -2,6 +2,8 @@
 
 Detect fraudulent credit card transactions using classical ML models.
 
+🌐 **Live App**: [https://credit-card-fraud-detection-hrczoamwj8xufv5umabmg6.streamlit.app/](https://credit-card-fraud-detection-hrczoamwj8xufv5umabmg6.streamlit.app/)
+
 ## Overview
 - Input features: `V1..V28` (anonymized), `Time`, `Amount`
 - Target: `Class` (1 = fraud, 0 = legit)
@@ -72,6 +74,9 @@ git push -u origin main
 ```
 
 ### Streamlit Cloud
+✅ **Deployed!** Live app: [https://credit-card-fraud-detection-hrczoamwj8xufv5umabmg6.streamlit.app/](https://credit-card-fraud-detection-hrczoamwj8xufv5umabmg6.streamlit.app/)
+
+To deploy:
 1. Go to [streamlit.io/cloud](https://streamlit.io/cloud)
 2. Connect your GitHub account
 3. Select repository: `Nedim7050/credit-card-fraud-detection`
