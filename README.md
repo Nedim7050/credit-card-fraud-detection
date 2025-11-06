@@ -61,8 +61,24 @@ because it focuses on precision/recall trade-offs on the positive (rare) class.
 We report both for completeness.
 
 ## Deploy
-- Streamlit Cloud or Hugging Face Spaces
-- Set the app entrypoint to `app/app.py`
+
+### GitHub Setup
+1. Create a new repository on GitHub named `credit-card-fraud-detection`
+2. Push your code:
+```bash
+git remote add origin https://github.com/Nedim7050/credit-card-fraud-detection.git
+git branch -M main
+git push -u origin main
+```
+
+### Streamlit Cloud
+1. Go to [streamlit.io/cloud](https://streamlit.io/cloud)
+2. Connect your GitHub account
+3. Select repository: `Nedim7050/credit-card-fraud-detection`
+4. Set main file path: `app/app.py`
+5. Deploy!
+
+The app will automatically install dependencies from `requirements.txt`.
 
 ## Author
 Nedim Mejri
