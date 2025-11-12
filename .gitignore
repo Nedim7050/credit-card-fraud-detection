@@ -17,7 +17,6 @@ Thumbs.db
 
 # Data and models (optional heavy files)
 data/raw/*.csv
-models/*.joblib
 models/plots/
 
 # Streamlit
